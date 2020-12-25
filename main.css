@@ -44,6 +44,12 @@
     background-color: #fff !important;
 
 }
+
+.home .buttons .animate__heartBeat{
+    animation-delay:2s;
+    margin-left:14px;
+    padding-bottom:14px;
+}
 /* about section */
 .about{
     
@@ -430,3 +436,15 @@
         font-size:15px;
     } */
  }
+
+ /* animation */
+  .p-intro{
+    opacity:0;
+    animation-delay:0.2s;
+    animation-duration:1.8s;
+}
+.p-intro-2{
+    opacity:0;
+    animation-delay:1s;
+    animation-duration:2s;
+}
