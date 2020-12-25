@@ -23,25 +23,6 @@
     align-items: center;
     /* border:1px solid green; */
 }
-.home h1{
-    animation-duration: 1s;
-}
-.home .lead{
-    animation-duration:1s;
-    animation-delay:1s;
-}
-.home hr{
-    animation-duration:4s;
-}
-.home .animate__shakeY{
-    animation-delay:2s;
-} 
-.home .buttons{
-    animation-duration:1s;
-    animation-delay:1s;
-    /* margin-bottom: 5px; */
-}
-
 .home hr,
 .about hr,
 .projects hr,
@@ -55,19 +36,14 @@
 .envelop .btn{
     background-color: #6200ea !important;
     color:white;
-    /* margin-bottom:7px;  */
+    margin-bottom: 2px;  
 }
-
-/* .home .btn{
-    margin-left:10px;
-} */
 .home .btn:hover{
     border:1px solid  #6200ea !important;
     color:#000;
     background-color: #fff !important;
 
 }
-
 /* about section */
 .about{
     
@@ -414,11 +390,10 @@
         font-size:10px;
         text-align: center;
     }
-
-    .home .animate__shakeY{
-        margin-top:10px;
-    }
-     
+    /* .form-group input{
+        background-color: red;
+        width:100%;
+    } */
  }
 
 
