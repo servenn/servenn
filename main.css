@@ -45,8 +45,12 @@
 
 }
 
+.home .buttons{
+    animation-duration:4s;
+}
+
 .home .buttons .animate__heartBeat{
-    animation-delay:2s;
+    animation-delay:4s;
     margin-left:14px;
     padding-bottom:14px;
 }
