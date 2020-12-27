@@ -187,6 +187,7 @@
     padding:10px 0;
 
 }
+
 .project .test .btn:hover{
     background-color: #fff;
     color:#000;
@@ -468,6 +469,7 @@
     .projects .test{
         width:99%;
     }
+    
      /* .testingthis{
        display:none;
     } */
