@@ -13,6 +13,17 @@
     top:0;
     width:100%; */
 }
+.sticky{
+    position: fixed;
+    width:100%;
+    /* background-color:black !important; */
+    transition:all 0.5s ease;
+    /* color:rgb(7, 6, 6) !important; */
+    z-index:1;
+    padding:5px 0;
+    border-bottom: 1px solid #fff;
+
+}
 .main-page .navbar .navbar-brand img,
 .main-page .navbar .navbar-nav .nav-item a{
     color:#fff;
@@ -32,6 +43,7 @@
     background:#6200ea;
     background-image: linear-gradient(to right, #aa9fbb, #6200ea, #c7bed3);
 }
+
 .home .btn,
 .envelop .btn{
     background-color: #6200ea !important;
@@ -59,6 +71,7 @@
     
     
 }
+
 /* .about h1{
     border:1px solid red;
 } */
@@ -92,6 +105,21 @@
     border: 2px solid #6200ea;
     margin-bottom:30px;
 }
+.about .text{
+    /* width:0%; */
+    background-color:#864dd6;
+    animation-name: tests 3s ease-in-out;
+    animation-fill-mode:both;
+}
+@keyframes tests{
+    from{
+        width:0%;
+    }
+    to{
+        width:95%;
+    }
+}
+/* TEST PROGRESS BAR */
 
 .about .row{
     margin-bottom:20px;
@@ -130,9 +158,9 @@
     /* vertical-align: middle; */
 }
 .text{
-    width:70%;
-    height:20px;
-    background-color:rgb(98, 98, 151);
+    /* width:70%; */
+    height:100%;
+    /* background-color:rgb(98, 98, 151); */
     border-bottom-right-radius:5px;
     border-top-right-radius:5px;
 
@@ -346,6 +374,13 @@
 }
 .footer span{
     text-align: center;
+}
+.footer .social a{
+    padding: 0 10px;
+    color:#fff;
+}
+.footer .social a:hover{
+    color:#6200ea;
 }
 /* media queries section */
 @media(max-width:991px){
