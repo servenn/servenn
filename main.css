@@ -105,20 +105,7 @@
     border: 2px solid #6200ea;
     margin-bottom:30px;
 }
-.about .text{
-    /* width:0%; */
-    background-color:#864dd6;
-    animation-name: tests 3s ease-in-out;
-    animation-fill-mode:both;
-}
-@keyframes tests{
-    from{
-        width:0%;
-    }
-    to{
-        width:95%;
-    }
-}
+
 /* TEST PROGRESS BAR */
 
 .about .row{
@@ -142,6 +129,7 @@
     margin-bottom:5px;
     background-color:rgb(165, 156, 156); 
     display: flex;
+    position: relative;
     
  }
  .test-12{
@@ -157,14 +145,27 @@
     color:white;
     /* vertical-align: middle; */
 }
-.text{
+.textss{
     /* width:70%; */
     height:100%;
-    /* background-color:rgb(98, 98, 151); */
+    background-color:rgb(98, 98, 151);
     border-bottom-right-radius:5px;
     border-top-right-radius:5px;
+    animation: tests 2s ease-in-out;
+    animation-fill-mode: forwards;
+    color:#fff;
+    text-align: center;
+    animation-delay:0.5s;
+    /* position:absolute; */
 
     /* opacity:0; */
+}
+@keyframes tests{
+    0%{
+        width:0%;
+    }100%{
+        width:50%;
+    }
 }
 /* projects section */
 .project{
@@ -431,6 +432,7 @@
     }
     .projects .test{
         width:100%;
+        opacity:0;
     }
     .projects .pro-heading{
         font-size:10px;
