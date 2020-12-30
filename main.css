@@ -145,28 +145,93 @@
     color:white;
     /* vertical-align: middle; */
 }
-.textss{
+
+.htmls{
+    animation: html 2s ease-in-out;
+}
+.csss{
+    animation: css 2s ease-in-out;
+}
+.jss{
+    animation: js 2s ease-in-out;
+}
+.javas{
+    animation: java 2s ease-in-out;
+}
+.wps{
+    animation: wp 2s ease-in-out;
+}
+.androids{
+    animation: android 2s ease-in-out;
+}
+.nodes{
+    animation: node 2s ease-in-out;
+} 
+
+.text{
     /* width:70%; */
     height:100%;
     background-color:rgb(98, 98, 151);
     border-bottom-right-radius:5px;
     border-top-right-radius:5px;
-    animation: tests 2s ease-in-out;
     animation-fill-mode: forwards;
     color:#fff;
     text-align: center;
     animation-delay:0.5s;
-    /* position:absolute; */
+    position: relative;
 
     /* opacity:0; */
 }
-@keyframes tests{
+
+@keyframes html{
     0%{
         width:0%;
     }100%{
-        width:50%;
+        width:68%;
     }
 }
+@keyframes css{
+    0%{
+        width:0%;
+    }100%{
+        width:65%;
+    }
+}
+@keyframes js{
+    0%{
+        width:0%;
+    }100%{
+        width:62%;
+    }
+}
+@keyframes node{
+    0%{
+        width:0%;
+    }100%{
+        width:56%;
+    }
+}
+@keyframes java{
+    0%{
+        width:0%;
+    }100%{
+        width:58%;
+    }
+}
+@keyframes wp{
+    0%{
+        width:0%;
+    }100%{
+        width:56%;
+    }
+}
+@keyframes android{
+    0%{
+        width:0%;
+    }100%{
+        width:54%;
+    }
+} 
 /* projects section */
 .project{
     background:rgb(98, 98, 151);

@@ -30,6 +30,7 @@ $(document).ready(function(){
     // navbar section
     $(window).scroll(function(){
 
+            //projects animation
             var top_of_element = $(".test").offset().top;
             var bottom_of_element = $(".test").offset().top + $(".test").outerHeight();
             var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
@@ -50,17 +51,30 @@ $(document).ready(function(){
                 });
         
             }
-
+            // this section belongs to skill bar animation
             var top_of_element = $(".text").offset().top;
             var bottom_of_element = $(".text").offset().top + $(".text").outerHeight();
             var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
             var top_of_screen = $(window).scrollTop();
 
             if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
-                $('.text').each(function(){
-                    $(this).addClass('textss');
-                });
+
+                $('.html').addClass('htmls');
+                 setTimeout(show,2000);
+                $('.css').addClass('csss');
+                $('.js').addClass('jss');
+                $('.java').addClass('javas');
+                $('.wp').addClass('wps');
+                $('.node').addClass('nodes');
+                $('.android').addClass('androids');
+
+                // add percentages now
+                // $('.htmls').html();
                 
+            }
+
+            function show(){
+                document.getElementsByClassName('html').style.innerHTML = '90%';
             }
             //navbar responsivenes test
             navbar();
