@@ -51,7 +51,7 @@
 .navbar .container li:hover:after {
     width: 100%;
     /* background: blue; */
-    border-bottom:3px solid rgb(66, 66, 66);
+    border-bottom:3px solid rgb(41, 41, 41);
     /* color: rgb(214, 18, 122) !important; */   
 }
 
@@ -221,7 +221,7 @@
     text-align: center;
     animation-delay:0.5s;
     position: relative;
-    opacity:0;
+
     /* opacity:0; */
 }
 
@@ -293,6 +293,7 @@
     align-items: center;
     flex-direction: column;
     padding:10px 0;
+    opacity:0;
 
 }
 
