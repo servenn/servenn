@@ -49,6 +49,9 @@ $(document).ready(function(){
                     // the element is visible, do something
                     var i = 0;
                     $(this).addClass('animate__animated animate__zoomIn');
+                    $(this).css({
+                        opacity:'1'
+                    })
             
                 }
 

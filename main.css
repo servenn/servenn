@@ -221,7 +221,7 @@
     text-align: center;
     animation-delay:0.5s;
     position: relative;
-
+    opacity:0;
     /* opacity:0; */
 }
 
