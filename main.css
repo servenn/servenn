@@ -220,30 +220,38 @@
     color:#fff;
     text-align: center;
     animation-delay:0.5s;
+    animation-duration:5s;
     position: relative;
 
     /* opacity:0; */
 }
-
+.skill-s .counter{
+    position:absolute;
+   /* top:60%; */
+    /* left:60%; */
+    /* transform: translate(-65%,-50%); */
+    color:#fff;
+    right:8px;
+}
 @keyframes html{
     0%{
         width:0%;
     }100%{
-        width:68%;
+        width:63%;
     }
 }
 @keyframes css{
     0%{
         width:0%;
     }100%{
-        width:65%;
+        width:62%;
     }
 }
 @keyframes js{
     0%{
         width:0%;
     }100%{
-        width:62%;
+        width:61%;
     }
 }
 @keyframes node{
@@ -274,6 +282,7 @@
         width:54%;
     }
 } 
+
 /* projects section */
 .project{
     background:rgb(98, 98, 151);

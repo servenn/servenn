@@ -1,32 +1,7 @@
 $(document).ready(function(){
     
-    //     var i = 0;
-    // function move() {
-    //     if (i == 0) {
-    //         i = 1;
-    //         var elem = document.getElementsByClassName('text');
-    //         console.log(elem);
-    //         var width = 0;
-    //         var id = setInterval(frame, 30);
-    //         function frame() {
-    //             if (width >=60) {
-    //                 clearInterval(id);
-    //                 i = 0;
-    //             } else {
-    //                 width++;
-    //                 // elem.style.width = width + "%";
-    //                 var j;
-    //                 for(j=0;j<elem.length;j++){
-    //                     elem[j].innerHTML = width + "%";
-    //                 }
-                    
-    //             }
-    //         }
-    //     }
-        
-    // }
-
-    // move();
+    // var bar  = document.querySelector('.text');
+    
     // navbar section
     $(window).scroll(function(){
 
@@ -80,18 +55,17 @@ $(document).ready(function(){
             var top_of_screen = $(window).scrollTop();
 
             if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
-
+                var counting = 0;
                 $('.html').addClass('htmls');
-                //  setTimeout(show,2000);
                 $('.css').addClass('csss');
                 $('.js').addClass('jss');
                 $('.java').addClass('javas');
                 $('.wp').addClass('wps');
                 $('.node').addClass('nodes');
                 $('.android').addClass('androids');
-
-                // add percentages now
-                // $('.htmls').html();
+                
+                
+              
                 
             }
 
