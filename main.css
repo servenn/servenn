@@ -9,15 +9,14 @@ body{
 .main-page{
     min-height:100vh;
 }
-.main-page .navbar{
+/* .main-page .navbar{
     background-color: rgb(98, 98, 151) !important;
     color:#fff;
-    /* position:absolute;
-    top:0;
-    width:100%; */
+   
+    top:0
     padding:0 !important;
     margin:0 !important;
-}
+} */
 /* navigation bar link hover */
 /* navigation bar link hover */
 .navbar .logo{
